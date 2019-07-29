@@ -7,6 +7,7 @@ https://drive.google.com/open?id=1XvQvraVDYOPObdIklcQc20F22QAD3NOb_j_3YNrFUJs
 Instructions to set up:
 
 1) Create a new react-app first ("npx create-react-app planus")
-2) Install dependencies for app ("cd .../planus" and then "npm install")
-3) Install dependencies for server ("cd .../planus/server" and then "npm install")
-4) Run "npm start" 
+2) Replace src files, package.json, packagelock.json with the files you downloaded here
+3) Install dependencies for app ("cd .../planus" and then "npm install")
+4) Install dependencies for server ("cd .../planus/server" and then "npm install")
+5) Run "npm start" 
