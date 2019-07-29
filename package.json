@@ -1,0 +1,64 @@
+{
+  "name": "orbital",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000/",
+  "homepage": "https://bscrow.github.io/Orbital/",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "concurrently": "^4.1.1",
+    "d3": "^5.9.2",
+    "dom-to-image": "^2.6.0",
+    "file-saver": "^2.0.2",
+    "firebase": "^6.2.4",
+    "gh-pages": "^2.0.1",
+    "react": "^16.8.6",
+    "react-autocomplete": "^1.8.1",
+    "react-d3-graph": "^2.0.2",
+    "react-d3-tree": "^1.13.0",
+    "react-dom": "^16.8.6",
+    "react-modal": "^3.8.1",
+    "react-scripts": "3.0.1",
+    "react-sidebar": "^3.0.2",
+    "react-tooltip": "^3.10.0",
+    "reactstrap": "^8.0.0"
+  },
+  "scripts": {
+    "start": "concurrently --kill-others \"node server/index.js\" \"react-scripts start\"",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "typescript": "^3.5.1"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bscrow/Orbital.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bscrow/Orbital/issues"
+  }
+}

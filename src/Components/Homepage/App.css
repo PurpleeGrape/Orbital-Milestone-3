@@ -1,0 +1,356 @@
+body {
+  /*background: url('../../Images/art-art-materials-bright-743986.jpg');
+  background-size: cover;*/
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+.Home {
+  /*background: url('../../Images/art-art-materials-bright-743986.jpg');*/
+  background: url('../../Images/astro-astronomy-background.jpg');
+  background-size: cover;
+}
+
+.LoadingPage {
+ background: rgba(0, 0, 0, 0.5);
+ height: 100%;
+ width: 100%;
+ position: absolute;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+ul {
+  padding: 0;
+  text-align: left;
+}
+
+li {
+  margin-left: 15px;
+}
+
+h2 {
+  color: darkblue;
+}
+
+td {
+  vertical-align: middle;
+}
+
+.HomePage {
+  display: inline-grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr 1fr;
+  width: 55%;
+  height: 100vh;
+  background-color: rgba(0,0,0, 0.3);
+}
+
+.HomePageWrapper {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.PlaNUShp {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  margin-bottom: 20px;
+  text-align: left;
+  border: 8px solid whitesmoke;
+  background-color: lightgrey;
+  padding-left: 20px;
+  border-radius: 8px;
+}
+
+.FASShp {
+  position: relative;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  cursor: pointer;
+  border-radius: 25px;
+  background: white;
+  width: auto;
+  height: auto;
+  margin: 20px;
+  border: 2px solid black;
+}
+
+.SOChp {
+  position: relative;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  cursor: pointer;
+  border-radius: 25px;
+  background: white;
+  width: auto;
+  height: auto;
+  margin: 20px;
+  border: 2px solid black;
+}
+
+.FOShp {
+  position: relative;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  cursor: pointer;
+  border-radius: 25px;
+  background: white;
+  width: auto;
+  height: auto;
+  margin: 20px;
+  border: 2px solid black;
+}
+
+.FOEhp {
+  position: relative;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  cursor: pointer;
+  border-radius: 25px;
+  background: white;
+  width: auto;
+  height: auto;
+  margin: 20px;
+  border: 2px solid black;
+}
+
+.FacultyLogo {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  translate: translateY(-50%);
+}
+
+.NodeBox {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  opacity: 0.99;
+}
+
+.textBoxLocked {
+ font-size: 10px;
+ height: 100%;
+ width: 100%;
+ position: absolute;
+ margin-top: 7px;
+}
+
+.textBox {
+  font-size: 10px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 3px;
+}
+
+.textContent {
+  vertical-align: middle;
+  margin-top: 22px;
+  margin-left: -3px;
+  font-weight: bold;
+}
+
+.Image-before {
+  align-content: center;
+  height: 90px;
+  width: 90px;
+  margin-left: -4px;
+  margin-top: -8.5px;
+}
+
+.Image-after {
+  align-content: center;
+  height: 90px;
+  width: 90px;
+  margin-left: -4px;
+  margin-top: -8.5px;
+}
+
+.Image-after2 {
+  align-content: center;
+  width: 65px;
+  height: 65px;
+  margin-left: -2.75px;
+  margin-top: -3px;
+}
+
+.Image-locked {
+  align-content: center;
+  width: 90px;
+  height: 90px;
+  opacity: 0.6;
+  margin-left: -5px;
+  margin-top: -7px;
+}
+
+.Timeline {
+  background: url('../../Images/astro-astronomy-background.jpg');
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content 1fr;
+  margin: 0;
+  height: 100vh;
+  justify-items: center;
+}
+
+.FOSFinal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr min-content;
+  grid-template-rows: min-content min-content 1fr;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 100%;
+}
+
+/*.SidebarMenu {
+  margin: 10px;
+}
+
+.Sidebarbutton {
+  grid-area: title;
+  grid-column: 4;
+  grid-row: 1;
+  width: 100px;
+  height: 100px;
+  justify-self: right;
+}
+
+.ToolbarButtons {
+  display: grid;
+  grid-template-columns: min-content min-content min-content;
+  grid-template-rows: min-content;
+  grid-area: buttons;
+}*/
+
+.Title {
+  padding: 8px;
+  grid-column: 1 / 6;
+  grid-row: 1;
+  text-align: center;
+  width: 100%;
+  height: 80%;
+  background: rgb(235, 235, 235);
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.Topbar {
+  grid-column: 1 / 6;
+  grid-row: 1;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.MODGrid {
+  grid-column: 1 / 6;
+  grid-row: 2;
+  /*background: rgb(250, 250, 250, 0.5);*/
+  background: rgba(0,0,0, 0.25);
+  margin: 0;
+  border: 8px solid rgba(255,255,255, 0.15);
+  border-radius: 8px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.DepartmentComponent {
+  display: inline-grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content 1fr;
+  border: 2px solid white;
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+}
+
+.departmentName {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.module {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+  grid-row-gap: 20px;
+}
+
+.cellBefore {
+  color: rgb(150, 150, 150);
+  font-size: 13px;
+}
+
+.cellAfter {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.cellSp {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.modal-bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  text-align: center;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.modal-msg {
+  padding: 25px;
+  grid-column: 1 / 3;
+}
+
+.modalButtons {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.Info {
+  border: 1px solid lightgray;
+}
+
+.modalMoreInfo {
+  height: 100%;
+  display: flex;
+  text-align: center;
+  background: dimgray;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+}

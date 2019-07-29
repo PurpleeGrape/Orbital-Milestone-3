@@ -1,0 +1,18 @@
+{
+    "Computer Science": { "req": "https://www.comp.nus.edu.sg/programmes/ug/cs/curr/", "studyPlan": "https://www.comp.nus.edu.sg/images/resources/content/undergraduates/study_planner-CS2019.pdf" },
+    "Information Security": { "req": "https://www.comp.nus.edu.sg/programmes/ug/isc/curr/", "studyPlan": "https://www.comp.nus.edu.sg/images/resources/2018_InfoSecFreshmenBriefing_v1.pdf" },
+    "Information Systems": { "req": "https://www.comp.nus.edu.sg/programmes/ug/is/curr/", "studyPlan": "https://www.comp.nus.edu.sg/images/resources/content/undergraduates/ISstudentHandbook_2016-17.pdf" },
+    "Business Analytics": { "req": "https://www.comp.nus.edu.sg/programmes/ug/ba/curr/", "studyPlan": "https://www.comp.nus.edu.sg/images/resources/content/undergraduates/ISstudentHandbook_2016-17.pdf" },
+    "Computer Engineering": { "req": "http://www.nus.edu.sg/nusbulletin/other-multidisciplinaryspecial-programmes/bachelor-of-engineering-computer-engineering-programme/degree-requirements/", "studyPlan": "https://ceg.nus.edu.sg/wp-content/uploads/sites/3/2019/07/AY1920_CEG1-Recommended-Schedule-Direct_as-of-18-July.pdf" },
+
+    "Chemistry": { "req": "http://www.chemistry.nus.edu.sg/education/undergrads/PrimaryMajor/specialization.htm", "studyPlan": "http://www.chemistry.nus.sg/_file/education/AT%20study%20plan_2015.pdf" },
+    "Computational Biology": { "req": "http://www.science.nus.edu.sg/images/LandingPage/Education/UG/Curriculum/ZB.pdf", "studyPlan": null },
+    "Food Science and Technology": { "req": "http://www.fst.nus.edu.sg/programmes/Undergraduates/Prospectus/FSTModules.html", "studyPlan": null },
+    "Data Science and Analytics": { "req": "https://www.stat.nus.edu.sg/index.php/current-students/undergraduate-programme/programme-structure", "studyPlan": null },
+    "Life Sciences": { "req": "http://www.lifesciences.nus.edu.sg/info/lsmajor(AY1819).pdf", "studyPlan": "http://www.lifesciences.nus.edu.sg/info/ls_studyplan(AY1718).pdf" },
+    "Mathematics and Applied Mathematics": { "req": "http://ww1.math.nus.edu.sg/studyplan/PlanMA1920.pdf", "studyPlan": "http://ww1.math.nus.edu.sg/studyplan/PlanMA1920.pdf" },
+    "Physics": { "req": "https://www.physics.nus.edu.sg/student/ugrad_course-structure.html", "studyPlan": null },
+    "Quantitative Finance": { "req": "http://ww1.math.nus.edu.sg/gradreq/qf1718.pdf", "studyPlan": null },
+    "Statistics": { "req": "https://www.stat.nus.edu.sg/index.php/current-students/undergraduate-programme/programme-structure", "studyPlan": null }
+
+}
